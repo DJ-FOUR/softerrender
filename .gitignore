@@ -1,0 +1,9 @@
+# 构建产物（CMake + Ninja 输出、复制的运行库 DLL、渲染帧图都在里面）
+build/
+
+# 测试运行时的临时文件
+test_tmp_*
+
+# Windows 系统杂项
+Thumbs.db
+Desktop.ini

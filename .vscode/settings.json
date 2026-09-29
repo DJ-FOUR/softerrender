@@ -1,0 +1,14 @@
+{
+    // CMake Tools 插件配置：MinGW + Ninja，与 tasks.json 保持一致
+    "cmake.generator": "Ninja",
+    "cmake.configureArgs": [
+        "-DCMAKE_CXX_COMPILER=D:/mingw64/bin/g++.exe",
+        "-DCMAKE_MAKE_PROGRAM=D:/mingw64/bin/ninja.exe"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build",
+    "cmake.configureOnOpen": false,
+    "cmake.automaticReconfigure": false,
+    // 方案 A：不使用插件的工具包/按钮流程，避免弹窗干扰，统一走任务体系
+    "cmake.autoSelectActiveKit": false,
+    "cmake.options.statusBarVisibility": "compact"
+}

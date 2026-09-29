@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "调试 renderer (GDB)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/renderer.exe",
+            "cwd": "${workspaceFolder}",
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/mingw64/bin/gdb.exe",
+            "preLaunchTask": "构建",
+            "console": "integratedTerminal"
+        }
+    ]
+}
